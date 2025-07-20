@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Intro to Tailwind CSS</title>
+</head>
+<body>
+    <h1 class="text-7xl">Intro to Tailwind</h1>
+    <h3 class="text-5xl">EXPLORING CSS VIA UTILITY CLASS</h3>
+    <P class="underline bg-red-500">This is exciting</P>
+    <P class="underline bg-green-700">This is exciting</P>
+    <P class="underline bg-pink-600">This is exciting</P>
+    <P class="underline bg-yellow-300">This is exciting</P>
+    <P class=" bg-violet-600 border-2px">This is exciting2222222222222</P>
+    <P class="text-center">This is exciting</P>
+    <P class="underline bg-sky-900">This is exciting</P>
+    <p class="text-center font-bold text-3xl bg-linear-to-bl from-violet-500 t0-fuchsia-500">I am exploring Tailwind</p>
+
+    <section class="w-1/2 mx-auto border">
+        <h3>My section title</h3>
+        <div class="text-3xl border m-4 text-center">My section title 2</div>
+       <p class="border px-12 text-green-600">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum natus velit itaque aliquid quod dolore nihil voluptates ullam, unde fugiat, consectetur ea, debitis laborum! Quia, expedita sapiente? Magnam facere, temporibus exercitationem esse et ab a quia harum explicabo sapiente ipsa corrupti, quasi illo, ut enim! Natus non quia inventore tempore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta sed aperiam beatae aliquam deleniti quia esse illo blanditiis autem debitis ipsa aut et molestiae facere modi rerum, iste praesentium ab porro quos voluptas in incidunt, consequatur omnis! Et, necessitatibus quas consequatur, laboriosam harum molestias suscipit cupiditate ducimus, libero adipisci aspernatur?</p>
+    </section>
+    <br>
+    <br>
+
+    <!-- responsive section -->
+
+    <section class="sm:bg-red-500 md:bg-green-500 lg:bg-yellow-500">
+        <h3 class="text-3xl">My Responsive section</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et dolore aperiam maiores quia nobis ab deleniti similique hic, fuga provident iusto distinctio. Hic, optio expedita. Aspernatur perferendis dolor doloremque ducimus amet ipsum odio veniam iusto labore! Error illum, magni corporis facilis quasi provident assumenda, fuga delectus praesentium repudiandae aliquam incidunt.</p>
+    </section>
+    <br>
+    <!-- flex layout -->
+     <section class="lg:flex">
+        <div class="w-96 h-32 text-3xl bg-purple-400 border border-4 border-red-900">Item-1</div>
+        <div class="w-96 h-32 text-3xl bg-purple-400 border border-4 border-red-900">Item-2</div>
+        <div class="w-96 h-32 text-3xl bg-purple-400 border border-4 border-red-900">Item-3</div>
+        <div class="w-96 h-32 text-3xl bg-purple-400 border border-4 border-red-900">Item-4</div>
+     </section>
+     <br>
+     <br>
+     <section class="flex justify-between">
+        <div class="w-24 h-24 text-3xl bg-purple-400 border border-4 border-red-900">Item-11</div>
+        <div class="w-24 h-24 text-3xl bg-purple-400 border border-4 border-red-900">Item-1s</div>
+        <div class="w-24 h-24 text-3xl bg-purple-400 border border-4 border-red-900">Item-13</div>
+     </section>
+     <br>
+     <br>
+     <!-- grid section -->
+      <section class="grid grid-cols-1   md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-2 gap-y-8">
+        <div class="bg-pink-300 text-2xl">Box-1</div>
+        <div class="bg-pink-300 text-2xl">Box-2</div>
+        <div class="bg-pink-300 text-2xl">Box-3</div>
+        <div class="bg-pink-300 text-2xl xl:row-span-4">Box-4</div>
+        <div class="col-span-2 bg-pink-300 text-2xl">Box-5</div>
+        <div class="bg-pink-300 text-2xl">Box-6</div>
+        <div class="bg-pink-300 text-2xl">Box-7</div>
+        <div class="bg-pink-300 text-2xl lg:col-span-3">Box-8</div>
+        <div class="bg-pink-300 text-2xl">Box-9</div>
+        <div class="bg-pink-300 text-2xl">Box-10</div>
+        <div class="bg-pink-300 text-2xl">Box-11</div>
+        <div class="bg-pink-300 text-2xl">Box-12</div>
+        
+      </section>
+      <br>
+      <br>
+
+      <section>
+        <h3 class="text-5xl bg-cyan-600 m-48">Some text</h3>
+      </section>
+</body>
+</html>
